@@ -15,7 +15,7 @@ from django.utils.timezone import now
 from django.utils.translation import (
     get_language,
     override as force_language,
-    ugettext_lazy as _,
+    ugettext as _,
 )
 
 from cms import constants
